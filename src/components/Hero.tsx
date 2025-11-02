@@ -4,10 +4,8 @@ import heroAvatar from "@/assets/hero-avatar.png";
 
 const Hero = () => {
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Github, href: "#", label: "Behance" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/janani2309/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Jan2309jr", label: "Github" },
   ];
 
   return (

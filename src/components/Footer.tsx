@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Thank You Message */}
           <div className="space-y-4 animate-fade-in">
             <h2 className="text-5xl md:text-7xl font-bold">
-              Thanks for <br className="md:hidden" />watching
+              Thanks for <br className="md:hidden" />Visiting
             </h2>
             
             {/* Decorative sparkles */}
@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-12 border-t border-border/30">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Janani. All rights reserved.
+              © {new Date().getFullYear()} Janani Ravi.
             </p>
           </div>
         </div>
