@@ -1,26 +1,26 @@
-import { Palette, Globe, Smartphone, Layers } from "lucide-react";
+import { Brain, Code, Database, LineChart } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Palette,
-      title: "UI/UX",
-      description: "Creating intuitive and visually appealing designs that enhance user experience.",
+      icon: Brain,
+      title: "Machine Learning",
+      description: "Building predictive models and intelligent systems using advanced ML algorithms.",
     },
     {
-      icon: Globe,
-      title: "Web Design",
-      description: "Designing responsive and engaging websites tailored to your needs.",
+      icon: LineChart,
+      title: "Data Analysis",
+      description: "Extracting insights from complex datasets using statistical analysis and visualization.",
     },
     {
-      icon: Smartphone,
-      title: "App Design",
-      description: "Crafting seamless and user-friendly mobile app interfaces.",
+      icon: Code,
+      title: "Deep Learning",
+      description: "Developing neural networks for computer vision, NLP, and advanced AI applications.",
     },
     {
-      icon: Layers,
-      title: "Prototyping & Wireframing",
-      description: "Building detailed prototypes and structured wireframes to define product flow.",
+      icon: Database,
+      title: "Big Data",
+      description: "Processing and analyzing large-scale datasets for actionable business intelligence.",
     },
   ];
 
@@ -29,9 +29,9 @@ const Services = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Skills</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Transforming ideas into creative digital experiences
+            Leveraging cutting-edge technologies to solve complex problems with AI
           </p>
         </div>
 

@@ -17,22 +17,22 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-6 animate-fade-in">
             <p className="text-muted-foreground uppercase tracking-wider text-sm">
-              WELCOME TO MY WORLD ✨
+              WELCOME TO MY PORTFOLIO ✨
             </p>
             
             <div className="space-y-2">
               <h1 className="text-4xl md:text-6xl font-bold">
-                Hi, I'm Sara Howari
+                Hi, I'm Janani
               </h1>
               <h2 className="text-4xl md:text-6xl font-bold">
-                <span className="gradient-text">UI&UX</span> Designer
+                <span className="gradient-text">Machine Learning</span> Engineer
               </h2>
             </div>
 
             <p className="text-muted-foreground text-lg max-w-xl">
-              Passionate UI/UX designer, I create intuitive and visually appealing digital
-              experiences. I transform ideas into seamless designs that meet users'
-              expectations.
+              Aspiring Machine Learning Engineer and pre-final year B.Tech CSE student.
+              Passionate about building intelligent systems and transforming data into
+              actionable insights through cutting-edge ML technologies.
             </p>
 
             {/* CTA Buttons */}
@@ -78,7 +78,7 @@ const Hero = () => {
               <div className="relative glass-card rounded-3xl p-8 glow-effect animate-float">
                 <img
                   src={heroAvatar}
-                  alt="Sara Howari - UI/UX Designer"
+                  alt="Janani - Machine Learning Engineer"
                   className="w-full h-auto rounded-2xl"
                 />
                 

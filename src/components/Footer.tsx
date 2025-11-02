@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-12 border-t border-border/30">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Sara Howari. All rights reserved.
+              © {new Date().getFullYear()} Janani. All rights reserved.
             </p>
           </div>
         </div>

@@ -7,23 +7,23 @@ import projectBroll from "@/assets/project-broll.png";
 const Projects = () => {
   const projects = [
     {
-      title: "Anakstera App",
-      category: "App Design",
-      description: "Creating intuitive and visually appealing designs that enhance user experience.",
+      title: "Predictive Analytics System",
+      category: "Machine Learning",
+      description: "Built a predictive model using Python and scikit-learn to forecast trends with 92% accuracy.",
       image: projectAnakstera,
       tag: "Featured",
     },
     {
-      title: "Homy App",
-      category: "App Design",
-      description: "Crafting intuitive and visually appealing designs that elevate user experience.",
+      title: "Computer Vision App",
+      category: "Deep Learning",
+      description: "Developed an image classification system using CNNs and TensorFlow for real-time object detection.",
       image: projectHomy,
       tag: "Featured",
     },
     {
-      title: "B-Roll Media",
-      category: "Web Design",
-      description: "Designing intuitive and visually engaging websites that elevate user experience.",
+      title: "NLP Chatbot",
+      category: "Natural Language Processing",
+      description: "Created an intelligent chatbot using transformers and BERT for customer support automation.",
       image: projectBroll,
       tag: "Featured",
     },
@@ -36,7 +36,7 @@ const Projects = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">My Projects</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Discover the projects that showcase my passion for design and innovation
+            Explore my machine learning projects that demonstrate innovation in AI and data science
           </p>
         </div>
 

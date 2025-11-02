@@ -31,12 +31,26 @@ const Contact = () => {
               <span className="text-6xl">👋</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold">
-              Let's Create Something Amazing Together
+              Let's Build Something Innovative Together
             </h2>
             <p className="text-muted-foreground text-lg">
-              Have a project in mind? Let's discuss how we can bring your ideas to life
-              with exceptional design.
+              Interested in collaboration or have a project idea? Reach out and let's discuss
+              how we can create impactful ML solutions.
             </p>
+            <div className="space-y-2 pt-4">
+              <p className="text-foreground">
+                <span className="font-medium">Email:</span>{" "}
+                <a href="mailto:jananiravi2027@gmail.com" className="text-primary hover:underline">
+                  jananiravi2027@gmail.com
+                </a>
+              </p>
+              <p className="text-foreground">
+                <span className="font-medium">Phone:</span>{" "}
+                <a href="tel:+918296052779" className="text-primary hover:underline">
+                  +91 8296052779
+                </a>
+              </p>
+            </div>
             
             {/* Decorative arrows */}
             <div className="flex gap-4 pt-4">
@@ -60,7 +74,7 @@ const Contact = () => {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Sara"
+                  placeholder="Your Name"
                   className="bg-secondary/50 border-border focus:border-primary transition-colors"
                 />
               </div>
